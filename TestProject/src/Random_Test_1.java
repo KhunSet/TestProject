@@ -1,8 +1,13 @@
+import java.util.Random;
 
 public class Random_Test_1 {
 	public static void main(String[] args) {
-		java.util.Random r = new java.util.Random();
+		Random r = new Random();
 		int i = r.nextInt(10);
 		System.out.println(i);
+		
+		
+		
 	}
 }
+
